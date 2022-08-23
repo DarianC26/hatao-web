@@ -1,0 +1,35 @@
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 8vh;
+    background-color: #000000;
+    color: black;
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px rgb(150, 150, 150);
+    padding: 2vh;
+}
+
+nav > img {
+    width: 12vh;
+    height: 12vh;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.nav-links > a {
+    text-decoration: none;
+    list-style: none;
+    color: rgb(198, 198, 198);
+    font-family: 'Montserrat';
+    font-size: 2.2vh;
+    padding-left: 3vw;
+    letter-spacing: 2px;
+    font-weight: bold;    
+}
